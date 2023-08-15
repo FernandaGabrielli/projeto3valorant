@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- CABECALHO NAVBAR -->
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+            <!-- MENU NAVEGACAO -->
+        <div class="container">
+            <img src="logovalorantcropp.png" alt="Logo Valorant" width="100">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#como-funciona" class="nav-link">
+                            <i class="bi bi-controller"></i>
+                            Como funciona?
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#noticias" class="nav-link">
+                            <i class="bi bi-newspaper"></i>
+                            Notícias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#arsenal" class="nav-link">
+                            <i class="bi bi-shield-x"></i>
+                            Arsenal
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        
+        <!-- SLIDE  E SOBRE -->
+        <section id="como-funciona">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="slide/img1.png" alt="Escolha seu agente">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="slide/img2.png" alt="Deadlock">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="slide/img3.png" alt="Deadlock promocional">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="sobreimg.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Como <span class="text-colored">funciona?</span></h2>
+                            <p>
+                                Misture o seu estilo e experiência em um cenário global e competitivo. Você terá 13 rodadas para atacar e defender com disparos certeiros e habilidades táticas. Com apenas uma vida por rodada, você deve pensar mais rápido que o oponente se quiser sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além da Disputa da Spike e do Mata-Mata!
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">os agentes</span></h3>
+                            <p>
+                                Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para você exibir sua mecânica de tiro. Cada Agente é único, assim como os momentos de destaque de cada partida!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NOTICIAS  -->
+        <section id="noticias" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-6">
+                    <div class="col-md-6">
+                        <img src="parte2/kitchampions.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-trophy-fill"></i>
+                            Champions 2023
+                        </h3>
+                        <p>
+                            Preparados para a ação eletrizante e as jogadas de alto nível? A Champions do Valorant 2023 chegou para definir os verdadeiros campeões! Em um torneio repleto de rivalidades intensas e partidas emocionantes, os melhores times de Valorant do mundo se enfrentarão em uma batalha épica pelo título supremo.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="parte2/rankvalorant.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-star-fill"></i>
+                            Nosso sistema de rank
+                        </h3>
+                        <p>
+                            Esteja preparado para duelos intensos, onde a vitória e a derrota têm um impacto direto no seu progresso. Cada vitória o aproxima do próximo rank, enquanto cada derrota é uma oportunidade de aprendizado e aprimoramento. O caminho para o topo é desafiador, mas as recompensas são gratificantes – de ícones exclusivos a um senso de realização que apenas os verdadeiros mestres podem experimentar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- ARSENAL  -->
+
+        <section id="arsenal" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">arsenal</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#armas-leves" class="fw-bold text-start nav-link text-colored active">Armas Leves</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Rifle" class="fw-bold text-start nav-link text-colored">Rifles</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#Fuzil" class="fw-bold text-start nav-link text-colored">Fuzis</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#faca" class="fw-bold text-start nav-link text-colored">Faca</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="armas-leves">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/classic.png" alt="Classic">
+                                        <h5 class="text-colored fw-bold mt-2">Classic</h5>
+                                        <p>
+                                            Com um carregador generoso e baixo custo, a Classic é perfeita para os agentes que dominam a arte de duelar.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/shorty.png" alt="shorty">
+                                        <h5 class="text-colored fw-bold mt-2">Shorty</h5>
+                                        <p>
+                                            Projetada para combate próximo, essa escopeta de cano curto é perfeita para surpreender os inimigos em espaços confinados. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/frenzy.png" alt="frenzy">
+                                        <h5 class="text-colored fw-bold mt-2">Frenzy</h5>
+                                        <p>
+                                            Esta pistola automática é a personificação da agressão nos rounds de pistol. A Frenzy é para rushar. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/ghost.png" alt="Ghost">
+                                        <h5 class="text-colored fw-bold mt-2">Ghost</h5>
+                                        <p>
+                                            A Ghost é a arma da precisão nos rounds iniciais. Com uma taxa de disparo controlada e potência de fogo, essa pistola semiautomática.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/sheriff.png" alt="Sheriff">
+                                        <h5 class="text-colored fw-bold mt-2">Sheriff</h5>
+                                        <p>
+                                            A Sheriff é a arma que coloca o poder nas mãos do jogador habilidoso. Ela pode abater oponentes em um só disparo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Rifle">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/phantom.png" alt="phantom">
+                                        <h5 class="text-colored fw-bold mt-2">Phantom</h5>
+                                        <p>
+                                            A Phantom é a lenda do combate próximo e médio. Com sua taxa de disparo rápida e baixo recuo, ela é a escolha dos jogadores que adoram batalhas frenéticas. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/vandal.png" alt="Vandal">
+                                        <h5 class="text-colored fw-bold mt-2">Vandal</h5>
+                                        <p>
+                                            A Vandal é o símbolo da força e da precisão. Com um único tiro à distância, ela pode acabar com seus inimigos em um instante. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Fuzil">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/marshal.png" alt="Marshal">
+                                        <h5 class="text-colored fw-bold mt-2">Marshal</h5>
+                                        <p>
+                                            O Marshal é o guardião dos snipers em treinamento. Com seu custo acessível e potência de fogo moderada
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/operator.png" alt="Operator">
+                                        <h5 class="text-colored fw-bold mt-2">Operator</h5>
+                                        <p>
+                                            O Operator é o predador das longas distâncias. Equipado com sua mira telescópica, ele transforma cada ângulo em uma zona de perigo para seus adversários. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="faca">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="arsenal/faca.png" alt="Faca">
+                                        <h5 class="text-colored fw-bold mt-2">Faca</h5>
+                                        <p>
+                                            A faca é a extensão da sua estratégia tática e habilidades de movimentação. Uma arma silenciosa e mortal, ela permite movimentos rápidos e golpes furtivos
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <!-- FALE CONOSCO  -->
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com/VALORANTbrasil">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.instagram.com/valorantbrasil">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Av. Thomas Edison, 849 - Barra Funda, São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
